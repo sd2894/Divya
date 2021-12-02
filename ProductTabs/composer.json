@@ -1,0 +1,21 @@
+{
+    "name": "divya/product-tabs",
+    "description": "Magento 2 Module for managing tabs on product detail page",
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "license":"OSL-3.0",
+    "authors": [
+        {
+            "name": "Divya S",
+            "email": "divyasekar.2894@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Divya\\ProductTabs\\": ""
+        }
+    }
+}
